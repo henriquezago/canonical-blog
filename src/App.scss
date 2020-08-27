@@ -1,0 +1,17 @@
+@import 'node_modules/vanilla-framework/scss/vanilla';
+
+@include vanilla;
+
+body {
+  color: #111;
+  font-family: "Ubuntu", -apple-system, "Segoe UI", "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
+.posts-container {
+  margin: 30px auto 0;
+  max-width: 68rem;
+}
